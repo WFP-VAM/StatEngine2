@@ -13,7 +13,7 @@ This is version is designed to produce estimates from surveys using complex surv
 + calcANOVA: performs ANOVA and regression analysis to inform which if any variables and associated interactions are significant 
 + calcMultCmp: Performs post-hoc interaction analysis to uncover relationships between specific categories amongst variables (i.e do any significant differences exist between interaction terms--interaction terms can be groups); works to compare groups within surveys 
 + calc2WayCmp: yet to be written! Performs Diff-in-diff to see differences between groups over time.
-### For Calculations (core functions are calcSumStats & calc2WayCmp)
+### For Plotting/Graphics
 + plotSumStats: plotting summary stats  
 
 As to goal of the StatEngine is to drive dashboards via automated tabulation of results from survey data. Plotting functions are probably unnecessary. However a database should be created where the reults can be cached and a wrapper function to retrieve those results from said database before calling the StatEngine.
